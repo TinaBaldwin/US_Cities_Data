@@ -30,9 +30,9 @@
 | Function Name         | Description  | Parameters  | Return Type |
 |-----------------------|--------------|-------------|-------------|
 | convert_columns_to_int | Iterates over columns list to convert specific colums in the  dataset to integers | 'df' (data frame), 'columns' (list of items to be converted) | integer |
-| convert_columns_to_string | Iterates over the columns list to convert specific columns in the dataset to strings | 'df' (data frame), 'columns' (list of items to be conversted) | string |
+| convert_columns_to_string | Iterates over the columns list to convert specific columns in the dataset to strings | 'df' (data frame), 'columns' (list of items to be converted) | string |
 | extract_null_rows | Iterates over dataframe to locate all the null values | 'df' (data frame) | rows with Nan values |
-
+| fill_null_values | Fills null values with a specified piece of information | 'df' (data frame), 'columns' (list of the columns to have null values replaced), 'fill_value' (value used to replace the null)
 
 ## Notes
 - Missing value for Park Acres for Des Moines, IA, was filled in using park acres value listed on the city's Parks and Recreation website, https://www.dsm.city/departments/parks_and_recreation-division/, as accessed on 3/11/25. 
