@@ -29,13 +29,10 @@
 
 | Function Name         | Description  | Parameters  | Return Type |
 |-----------------------|--------------|-------------|-------------|
-| us_cities_int         | Iterates over the city_column list to convert specific colums in the us_cities dataset to integers | 'us_cities' (data frame), 'city_columns' (list of strings) | integer |
-| us_cities_string | Iterates over the city_column list to convert specific columns in the us_cities dataset to strings | 'us_cities' (data frame), 'city_column' (list of strings) | string |
-|extract_null_rows_cities | Iterates over us_cities to locate all the null values | us_cities (data frame) | rows with Nan values |
-| connectivity_int | Iterates over the columns list to convert specific columsn in the connectivity dataset to integers | 'connectivity' (data frame), 'column' (list of strings) |
-| connectivity_string | Iterates over columns list to convert specific columns in the connectivity data frame to strings | 'connectivity' (data frame), 'column' (list of strings) | string |
-| extract_null_rows | Iterates over connectivity data frame and returns all rows with null values | 'connectivity' (data frame)  | rows wtih Nan values |
-| connectivity_null | Fills in the null value for a specified column wtih a specified value | 'connectivity' (data frame), 'column' (list) | does not return anything, replaces a value |
+| convert_columns_to_int | Iterates over columns list to convert specific colums in the  dataset to integers | 'df' (data frame), 'columns' (list of items to be converted) | integer |
+| convert_columns_to_string | Iterates over the columns list to convert specific columns in the dataset to strings | 'df' (data frame), 'columns' (list of items to be conversted) | string |
+| extract_null_rows | Iterates over dataframe to locate all the null values | 'df' (data frame) | rows with Nan values |
+
 
 ## Notes
 - Missing value for Park Acres for Des Moines, IA, was filled in using park acres value listed on the city's Parks and Recreation website, https://www.dsm.city/departments/parks_and_recreation-division/, as accessed on 3/11/25. 
