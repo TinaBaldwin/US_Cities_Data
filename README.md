@@ -14,3 +14,10 @@
 # Install the required dependencies 
 #     - pip install -r requirements.txt
 #
+
+
+
+These librabarys are needed to create graphs and plots for Matplot lib, searborn, Plotly:
+pip install matplotlib
+pip install seaborn
+pip install plotly
