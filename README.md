@@ -8,23 +8,46 @@
 ### The project utilizes a Jupyter Notebook and python to merge two data sets. Cleaning of the data sets is accomplished via multiple steps for each data set before the merge. Teh data visualization is completed with in the Jupyther notebook as well using matplotlib. 
 
 ## Primary Files
-### 1. **urban_connectivity.csv:**
-### 2. **us_cities.csv:**
-### 3. **Data_Dictionary.md:**
-### 4. **README.md:**
-### 5. **Cleaning_USCIties_Connectivity.ipynb:**
-### 6. **requirements.txt:**
+### 1. **urban_connectivity.csv:** is one of the primary data sets used for the probject.
+### 2. **us_cities.csv:** is the other primary data set used for the project. 
+### 3. **Data_Dictionary.md:** is the custom data dictionary for this project. 
+### 4. **README.md:** provides overview of the probject, information on running the project, sources of information, and description of project features. 
+### 5. **Cleaning_USCIties_Connectivity.ipynb:** a Jupyter Notebook in which the steps for data cleaning, merging of data sets, calculation of new values, data visualization, and interpretation are located. 
+### 6. **requirements.txt:** this is the file used for pip install of project requirements. 
 
 ## Running the Program:
-### The following is a guide to running the project files locally:
-1. Fork the repository https://github.com/TinaBaldwin/US_Cities_Data.git
-2. Clone the repository to your Github account
-3. Access the repository from your command line or preferred command software (CMD).
-4. Install a virtual environment. The command in Gitbash is *python -m venv venv*
-5. Activate the vitual environment. The command in Gitbash is *source venv/scripts/activate*
-6. Install the *requirements.txt* file to install necessary packages by running *pip install requirements.txt*
+### Check that your system meets the following requirements:
+- Ensure you have Python installed. Python 3 is required. This project is written using version 3.11.9. You can download Python from https://www.python.org/downloads/.
+- Ensure you have installed Git. This program is needed to clone the repository. You can download Git from https://git-scm.com/downloads.
+
+### Follow these steps for running the project files locally:
+1. Navigate in your browser to the repository at https://github.com/TinaBaldwin/US_Cities_Data.git
+2. Open a terminal (command line) in your preferred software, i.e. Gitbash
+3. In the terminal, navigate to the directory in which you want to clone the repository
+4. In the browser, copy the URL for the repository
+4. Enter into Gitbash: *git clone 'paste copied repository url'*
+5. Navigate to the cloned folder from your terminal
+6. In order to keep the project's dependencies isolated from your system's Python environment, create a virtual environment by entering the following into the terminal, based on your system; and install the required packages:
+- On Windows: 
+    1. if using command prompt:
+        - enter *python -m venv venv* (creates new virtual environment named venv in your current directory)
+        - to active virtual environment enter *.\venv\Scripts\activate* (your prompt should indicate you are now in venv)
+    2. if using Git Bash:
+        - enter *python -m venv venv* (creates new virtual environment named venv in your current directory)
+        - then to activate enter *source venv/Scripts/activate* (your prompt should indicate you are now in venv)   
+- On macOS and Linux: 
+        - enter *python3 -m venv venv* (creates new virtual environment named venv in your current director)
+        - to activate virtual environment enter *source venv/bin/activate* (your prompt should indicate you are now in venv)      
+7. Once you are in the virtual environment, for all the above systems, enter into terminal *pip install -r requirements.txt*
+8. Now you are ready to run the project!
+    - If you have Jupyter Notebook installed, enter into terminal *jupyter notebook* and open the .ipynb file.
+    - If you have Visual Studio Code (VS Code), you can open the .ipynb file in VS Code and run all the cells with the run all button at top of page or you can run each cell individually with the arrow/executve button on top left of each cell. 
+8. When you are finished running the project, you can deactivate the virtual environment, by entering into the terminal *deactivate*
 
 
+### The following packages will be required to run the program:
+- pandas
+- matplotlib
 
 ## Sources:
 # Datasets (There are two data sets used and both come from Kaggle (https://www.kaggle.com/). These data sets have been cleaned and merged into one.)
@@ -33,7 +56,7 @@
 
 ## Features:
 1. Loading Data - Read in two CSV data files.
-2. Data preparation - In the first three sections of Cleaning_USCities_Connectivity.ipynb the data is cleaned, merged, and new values are calculated based on the new data set.  
+2. Data preparation - In the first three sections of Cleaning_USCities_Connectivity.ipynb the data is cleaned, pandas merge completed, and new values are calculated based on the new data set.  
 3. Visualization of data - The fourth section of Cleaning_USCities_Connectivity.ipynb uses Matplotlib to crease 3+ visualizations of data. 
 4. Data Dictionary - Data_Dictionary.md is a custom built data dictionary document. 
 5. Virtual Environment usage - Readme document includes instructions on how to setup a virtual environment. 
