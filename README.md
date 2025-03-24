@@ -48,6 +48,7 @@
 ### The following packages will be required to run the program:
 - pandas
 - matplotlib
+- numpy
 
 ## Sources:
 # Datasets (There are two data sets used and both come from Kaggle (https://www.kaggle.com/). These data sets have been cleaned and merged into one.)
