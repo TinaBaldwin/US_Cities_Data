@@ -53,7 +53,7 @@
 - ipykernel
 
 ## Sources:
-# Datasets (There are two data sets used and both come from Kaggle (https://www.kaggle.com/). These data sets have been cleaned and merged into one.)
+### Datasets (There are two data sets used and both come from Kaggle (https://www.kaggle.com/). These data sets have been cleaned and merged into one.)
 -  US Cities (https://www.kaggle.com/datasets/louise2001/us-cities): For cities within the United states, this data set includes city, state, population, cost of living, etc.  
 - US Cities Urban Connectivty: EDA (https://www.kaggle.com/code/vellis1/us-cities-urban-connectivity-eda): Got cities within the United States, this data set includes city, state, Walk Score and numbers of amenities like tennis courts, walking trails, basketball hoops, public restrooms, etc.
 
