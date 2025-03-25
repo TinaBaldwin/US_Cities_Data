@@ -3,15 +3,15 @@
 ### The goal of this project is to identify in what United States Citiems with populations of at least 250,000, it is most optimal to live based on cost of living, walkability, and amenities. 
 
 ## Overview:
-### This analysis is designed to assist individuals when considering relocation to other cities within the United States at time of retirement. The amenities of interest include public amenities that are found in public parks, community centers, and senior centers. Of particular interest if finding cities which have low cost of living, high walkability score, and higher nubmers of amenities. 
+### This analysis is designed to assist individuals when considering relocation to other cities within the United States at time of retirement. The amenities of interest include public amenities that are found in public parks, community centers, and senior centers. Of particular interest is finding cities which have low cost of living, high walkability score, and higher numbers of amenities. 
 
-### The project utilizes a Jupyter Notebook and python to merge two data sets. Cleaning of the data sets is accomplished via multiple steps for each data set before the merge. Teh data visualization is completed with in the Jupyther notebook as well using matplotlib. 
+### The project utilizes a Jupyter Notebook and python to merge two data sets. Cleaning of the data sets is accomplished via multiple steps for each data set before the merge. The data visualization is completed with in the Jupyter notebook as well using matplotlib. 
 
 ## Primary Files
-### 1. **urban_connectivity.csv:** is one of the primary data sets used for the probject.
+### 1. **urban_connectivity.csv:** is one of the primary data sets used for the project.
 ### 2. **us_cities.csv:** is the other primary data set used for the project. 
 ### 3. **Data_Dictionary.md:** is the custom data dictionary for this project. 
-### 4. **README.md:** provides overview of the probject, information on running the project, sources of information, and description of project features. 
+### 4. **README.md:** provides overview of the project, information on running the project, sources of information, and description of project features. 
 ### 5. **Cleaning_USCIties_Connectivity.ipynb:** a Jupyter Notebook in which the steps for data cleaning, merging of data sets, calculation of new values, data visualization, and interpretation are located. 
 ### 6. **requirements.txt:** this is the file used for pip install of project requirements. 
 
@@ -81,6 +81,3 @@
 
 
 
-These librabarys are needed to create graphs and plots for Matplot lib, searborn, Plotly:
-pip install matplotlib
-pip install plotly
