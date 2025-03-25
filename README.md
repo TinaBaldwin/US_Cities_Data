@@ -42,6 +42,7 @@
 8. Now you are ready to run the project!
     - If you have Jupyter Notebook installed, enter into terminal *jupyter notebook* and open the .ipynb file.
     - If you have Visual Studio Code (VS Code), you can open the .ipynb file in VS Code and run all the cells with the run all button at top of page or you can run each cell individually with the arrow/executve button on top left of each cell. 
+    - You may get a pop up asking you to install the ipykernel package, if you do go ahead and install it. 
 8. When you are finished running the project, you can deactivate the virtual environment, by entering into the terminal *deactivate*
 
 
@@ -49,6 +50,7 @@
 - pandas
 - matplotlib
 - numpy
+- ipykernel
 
 ## Sources:
 # Datasets (There are two data sets used and both come from Kaggle (https://www.kaggle.com/). These data sets have been cleaned and merged into one.)
