@@ -8,10 +8,10 @@
 | State                 | String        | U.S. state where the city is located |
 | Population            | Integer       | Total population of the specific city |
 | Avg Income            | int64         | Average Income in the specific city |
-| CostOfLiving          | int64         | Cost of living in the specific city |
+| Cost of Living        | int64         | Cost of living in the specific city |
 | Latitude              | float64       | Latitude of the specific city |
 | Longitude             | float64       | Longitude of the specific city |
-| Walk Score            | float64       | Score reflecting easy it is to walk around a city to complete errands without a car |
+| Walk Score            | float64       | Score reflecting ease of walking around a city to complete errands without a car |
 | Park Acres            | float64       | Number of acres of public parks in the city |
 | Tennis Courts         | int64         | Number of public tennis courts in the city |
 | Swimming Pools        | int64         | Number of public swimming pools in the city |
@@ -22,6 +22,7 @@
 | Basketball Hoops      | int64         | Number of public basketball hoops in the city |
 | Community Gardens     | int64         | Number of public community gardens in the city |
 | Community Centers     | int64         | Number of public community centers in the city |
+| Total Amenities       | int64         | Sum of the number of amenities in a specific city |
 | Amenity Cost          | float64       | Ratio of number of amenities to cost of living in the city |
 | Amenities by Pop      | float64       | Ratio of number of amenities to population of the city |
 
@@ -32,7 +33,7 @@
 | convert_columns_to_int | Iterates over columns list to convert specific colums in the  dataset to integers | 'df' (data frame), 'columns' (list of items to be converted) | integer |
 | convert_columns_to_string | Iterates over the columns list to convert specific columns in the dataset to strings | 'df' (data frame), 'columns' (list of items to be converted) | string |
 | extract_null_rows | Iterates over dataframe to locate all the null values | 'df' (data frame) | rows with Nan values |
-| fill_null_values | Fills null values with a specified piece of information | 'df' (data frame), 'columns' (list of the columns to have null values replaced), 'fill_value' (value used to replace the null)
+| fill_null_values | Fills null values with a specified piece of information | 'df' (data frame), 'columns' (list of the columns to have null values replaced), 'fill_value' (value used to replace the null) |
 
 ## Notes
 - Missing value for Park Acres for Des Moines, IA, was filled in using park acres value listed on the city's Parks and Recreation website, https://www.dsm.city/departments/parks_and_recreation-division/, as accessed on 3/11/25. 

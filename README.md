@@ -15,6 +15,9 @@
 5. **Cleaning_USCIties_Connectivity.ipynb:** a Jupyter Notebook in which the steps for data cleaning, merging of data sets, calculation of new values, data visualization, and interpretation are located. 
 6. **requirements.txt:** this is the file used for pip install of project requirements. 
 
+## Data Dictionary
+### Please see the Data_Dictionary.md file in this repo. 
+
 ## Running the Program:
 ### Check that your system meets the following requirements:
 - Ensure you have Python installed. Python 3 is required. This project is written using version 3.11.9. You can download Python from https://www.python.org/downloads/.
@@ -44,7 +47,6 @@
     - If you have Visual Studio Code (VS Code), you can open the .ipynb file in VS Code and run all the cells with the run all button at top of page or you can run each cell individually with the arrow/executve button on top left of each cell. 
     - You may get a pop up asking you to install the ipykernel package, if you do go ahead and install it. 
 8. When you are finished running the project, you can deactivate the virtual environment, by entering into the terminal *deactivate*
-
 
 ### The following packages will be required to run the program:
 - pandas
